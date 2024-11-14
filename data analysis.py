@@ -1,0 +1,13 @@
+import pandas as pd
+data=pd.read_csv("C:/Users/RK/Downloads/matches.csv")
+print(data)
+print(data.head())
+print(data.tail())
+print(data.head(13))
+print(data.tail(13))
+print(data[100:120])
+print(data[500:])
+print(data[:12])
+print(data.columns)
+print(data[data['Season']==2009].shape[1])
+print(data[data['City']=='Bangalore'])
